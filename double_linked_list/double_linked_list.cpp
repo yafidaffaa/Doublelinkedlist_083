@@ -100,3 +100,9 @@ bool DoubleLinkedList::deleteNode(int rollNo) {
 bool DoubleLinkedList::listEmpty() {
 	return START == NULL;
 }
+
+void DoubleLinkedList::traverse() {
+	if (listEmpty())
+		cout << "\nList is empty" << endl;
+
+}

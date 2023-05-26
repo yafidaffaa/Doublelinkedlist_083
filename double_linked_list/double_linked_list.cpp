@@ -2,10 +2,14 @@
 #include <string>
 using namespace std;
 
-class node {
+class Node {
 public:
 	int nomhs;
 	string name;
-	node* next;
-	node* prev;
+	Node* next;
+	Node* prev;
+};
+
+class DoubleLinkedList {
+
 };

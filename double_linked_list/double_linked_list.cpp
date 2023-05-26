@@ -4,7 +4,7 @@ using namespace std;
 
 class Node {
 public:
-	int nomhs;
+	int noMhs;
 	string name;
 	Node* next;
 	Node* prev;
@@ -31,4 +31,10 @@ void DoubleLinkedList::addNode() {
 	cin >> nim;
 	cout << "\nEnter the name of the student: ";
 	cin >> nm;
+
+	Node* newNode = new Node(); // step 1
+	newNode->noMhs = nim; // step 2
+	newNode->name = nm; // step 3
+
+
 }

@@ -179,19 +179,19 @@ int main() {
 
 			switch (ch) {
 			case '1':
-
+				obj.addNode();
 				break;
 			case '2':
-
+				obj.hapus();
 				break;
 			case '3':
-
+				obj.traverse();
 				break;
 			case '4':
-
+				obj.revtraverse();
 				break;
 			case '5':
-
+				obj.searchData();
 				break;
 			case '6':
 				return 0;
